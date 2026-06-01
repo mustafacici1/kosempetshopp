@@ -1,0 +1,56 @@
+:root {
+  /* Renk paleti — olgun & sıcak */
+  --color-cream: #faf7f2;
+  --color-surface: #ffffff;
+  --color-surface-alt: #f4ede3;
+  --color-text: #211b16;
+  --color-text-soft: #5c5249;
+  --color-text-muted: #8d8177;
+
+  --color-accent: #e2652c;          /* terrakotta turuncu */
+  --color-accent-strong: #c4501c;
+  --color-accent-soft: #f7e3d6;
+
+  --color-leaf: #43756a;            /* olgun adaçayı yeşili */
+  --color-leaf-strong: #305a51;
+  --color-leaf-soft: #dfeae6;
+
+  --color-sun: #e0a64a;            /* yumuşak amber */
+  --color-sky: #5b94b0;
+
+  --color-border: #ece3d6;
+  --color-danger: #c9462f;
+
+  /* Tipografi */
+  --font-head: "Plus Jakarta Sans", system-ui, sans-serif;
+  --font-body: "Inter", system-ui, -apple-system, sans-serif;
+
+  --text-xs: 0.78rem;
+  --text-sm: 0.9rem;
+  --text-base: clamp(1rem, 0.97rem + 0.15vw, 1.06rem);
+  --text-lg: clamp(1.12rem, 1.04rem + 0.35vw, 1.3rem);
+  --text-xl: clamp(1.4rem, 1.15rem + 0.9vw, 1.85rem);
+  --text-2xl: clamp(1.9rem, 1.4rem + 2.1vw, 3rem);
+  --text-hero: clamp(2.5rem, 1.7rem + 3.6vw, 4.4rem);
+
+  /* Boşluk & yarıçap */
+  --space-section: clamp(3.5rem, 2.5rem + 4vw, 7rem);
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 22px;
+  --radius-pill: 999px;
+
+  /* Gölgeler — daha ince, profesyonel */
+  --shadow-sm: 0 1px 3px rgba(33, 27, 22, 0.06), 0 1px 2px rgba(33, 27, 22, 0.04);
+  --shadow-md: 0 8px 24px rgba(33, 27, 22, 0.08);
+  --shadow-lg: 0 24px 60px rgba(33, 27, 22, 0.14);
+  --shadow-accent: 0 10px 24px rgba(226, 101, 44, 0.28);
+
+  /* Hareket */
+  --duration-fast: 160ms;
+  --duration-normal: 320ms;
+  --duration-slow: 700ms;
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+
+  --maxw: 1240px;
+}

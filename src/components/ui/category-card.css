@@ -1,0 +1,87 @@
+.category-card {
+  position: relative;
+  display: block;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  box-shadow: var(--shadow-sm);
+  transition:
+    transform var(--duration-normal) var(--ease-out-expo),
+    box-shadow var(--duration-normal) var(--ease-out-expo);
+}
+
+.category-card:hover {
+  transform: translateY(-6px);
+  box-shadow: var(--shadow-lg);
+}
+
+.category-card__media {
+  position: relative;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  display: grid;
+  place-items: center;
+  background: color-mix(in srgb, var(--cat-color) 14%, white);
+}
+.category-card__media img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform var(--duration-slow) var(--ease-out-expo);
+}
+.category-card:hover .category-card__media img {
+  transform: scale(1.06);
+}
+.category-card__media::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to top,
+    color-mix(in srgb, var(--cat-color) 55%, transparent),
+    transparent 60%
+  );
+}
+.category-card__fallback {
+  font-size: 2.6rem;
+  opacity: 0.5;
+}
+
+.category-card__body {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.6rem;
+  padding: 1rem 1.2rem;
+}
+.category-card__name {
+  font-size: var(--text-lg);
+  margin-bottom: 0.1rem;
+}
+.category-card__desc {
+  font-size: var(--text-sm);
+  color: var(--color-text-soft);
+}
+.category-card__arrow {
+  display: grid;
+  place-items: center;
+  width: 38px;
+  height: 38px;
+  border-radius: var(--radius-pill);
+  background: var(--color-surface-alt);
+  color: var(--color-text);
+  flex-shrink: 0;
+  transition:
+    background var(--duration-fast),
+    color var(--duration-fast),
+    transform var(--duration-normal) var(--ease-out-expo);
+}
+.category-card:hover .category-card__arrow {
+  background: var(--cat-color);
+  color: #fff;
+  transform: translateX(3px);
+}

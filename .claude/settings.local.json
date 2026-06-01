@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run *)",
+      "Bash(node -e \"const p=require\\('./node_modules/lottie-react/package.json'\\); console.log\\('version', p.version\\); console.log\\('main', p.main\\); console.log\\('module', p.module\\); console.log\\('exports', JSON.stringify\\(p.exports\\)\\); console.log\\('peer', JSON.stringify\\(p.peerDependencies\\)\\)\")",
+      "Bash(find . -maxdepth 2 -iname \"kedi*\" -not -path \"*/node_modules/*\")",
+      "Bash(ls -la *.png *.jpg *.jpeg *.webp *.avif *.gif)",
+      "Bash(ls -la src/assets/)",
+      "Bash(ls -la public/)",
+      "Bash(cp Kedi.jpeg src/assets/kedi.jpeg)",
+      "Bash(cat src/vite-env.d.ts)"
+    ]
+  }
+}

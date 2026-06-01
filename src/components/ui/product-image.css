@@ -1,0 +1,50 @@
+.product-image {
+  position: relative;
+  display: grid;
+  place-items: center;
+  aspect-ratio: 1 / 1;
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  background:
+    linear-gradient(
+      150deg,
+      color-mix(in srgb, var(--tile-color) 16%, white),
+      color-mix(in srgb, var(--tile-color) 6%, white)
+    );
+}
+
+.product-image__img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  transform: scale(1.04);
+  transition:
+    opacity var(--duration-normal) ease,
+    transform var(--duration-slow) var(--ease-out-expo);
+}
+.product-image.is-ready .product-image__img {
+  opacity: 1;
+  transform: scale(1);
+}
+
+/* Fallback (görsel yokken/yüklenmezken) */
+.product-image__fallback {
+  font-size: 3.4rem;
+  opacity: 0.55;
+  filter: grayscale(0.2);
+}
+.product-image--sm .product-image__fallback {
+  font-size: 2rem;
+}
+.product-image--lg .product-image__fallback {
+  font-size: 5rem;
+}
+
+/* Kartlar üzerinde hover-zoom */
+.product-card__media:hover .product-image__img,
+a:hover > .product-image .product-image__img {
+  transform: scale(1.07);
+}
