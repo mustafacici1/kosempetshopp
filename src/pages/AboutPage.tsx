@@ -59,7 +59,7 @@ export function AboutPage() {
         </div>
         <div className="about-story__visual reveal reveal--delay-1">
           <img
-            src={new URL("../assets/pati_tek_hakkımızda.webp", import.meta.url).href}
+            src={new URL("../assets/kosem.webp", import.meta.url).href}
             alt="Köşem Petshop"
             loading="lazy"
             decoding="async"
