@@ -26,8 +26,8 @@ export function AboutPage() {
           <span className="eyebrow">Hakkımızda</span>
           <h1>Patili dostlara duyulan sevgiyle başladı</h1>
           <p>
-            Pati Tek Petshop, hayvan sevgisini bir işe dönüştürmek isteyen bir
-            ailenin hayaliyle Eskişehir'de kuruldu.
+            Köşem Petshop, hayvan sevgisini bir işe dönüştürmek isteyen bir
+            ailenin hayaliyle Bursa/İnegöl'de kuruldu.
           </p>
         </div>
       </section>
@@ -36,7 +36,7 @@ export function AboutPage() {
         <div className="about-story__text reveal">
           <h2 className="section-title">Hikayemiz</h2>
           <p>
-            Eskişehir Çamlıca'da küçük bir dükkanda yola çıktık. Amacımız
+            Bursa/İnegöl'de küçük bir dükkanda yola çıktık. Amacımız
             netti: evcil dostlarına en iyisini sunmak isteyen sahiplere
             güvenilir, samimi ve uzman bir adres olmak.
           </p>
@@ -60,7 +60,7 @@ export function AboutPage() {
         <div className="about-story__visual reveal reveal--delay-1">
           <img
             src={new URL("../assets/pati_tek_hakkımızda.webp", import.meta.url).href}
-            alt="Pati Tek Petshop"
+            alt="Köşem Petshop"
             loading="lazy"
             decoding="async"
           />

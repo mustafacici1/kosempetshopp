@@ -29,7 +29,7 @@ export const services: Service[] = [
     icon: "truck",
     title: "Aynı Gün Teslimat",
     description:
-      "Eskişehir içi siparişlerin aynı gün, özenle kapına kadar gelir.",
+      "İnegöl içi siparişlerin aynı gün, özenle kapına kadar gelir.",
   },
   {
     icon: "graduation",

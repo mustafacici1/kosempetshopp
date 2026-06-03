@@ -20,7 +20,7 @@ function Logo({ onClick }: { onClick?: () => void }) {
         <PawMark size={22} />
       </span>
       <span className="logo__text">
-        Pati<span>Tek</span>
+        Köşem<span>Petshop</span>
       </span>
     </Link>
   );

@@ -60,7 +60,7 @@ export function Hero() {
       <div className="container hero__inner">
         <div className="hero__content reveal">
           <span className="hero__eyebrow">
-            <Icon name="location" size={15} /> Eskişehir · Pati Tek Petshop
+            <Icon name="location" size={15} /> Bursa/İnegöl · Köşem Petshop
           </span>
           <h1 className="hero__title">
             Mutlu patiler,
@@ -141,7 +141,7 @@ export function Hero() {
             </span>
             <div>
               <strong>Aynı Gün Teslimat</strong>
-              <span>Eskişehir içi</span>
+              <span>İnegöl içi</span>
             </div>
           </div>
 

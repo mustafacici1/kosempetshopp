@@ -1,4 +1,4 @@
-# Pati Tek Petshop — Demo
+# Köşem Petshop — Demo
 
 Modern, tamamen Türkçe bir petshop tanıtım + e-ticaret demo'su. Backend ve
 gerçek ödeme yoktur; sepet ve ürün yönetimi tarayıcıda (localStorage) çalışır.

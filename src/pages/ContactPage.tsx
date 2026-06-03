@@ -8,9 +8,9 @@ const contactInfo: { icon: IconName; label: string; value: string; href?: string
   {
     icon: "location",
     label: "Adres",
-    value: "Çamlıca Mah. Doğanşehir Sok. No:17/A, Eskişehir 26180",
+    value: "Bursa/İnegöl",
   },
-  { icon: "phone", label: "Telefon", value: "0546 582 69 87", href: "tel:+905465826987" },
+  { icon: "phone", label: "Telefon", value: "0536 628 15 16", href: "tel:+905366281516" },
   { icon: "clock", label: "Çalışma Saatleri", value: "Her gün 09:00 – 21:00" },
   { icon: "card", label: "Ödeme", value: "Kapıda nakit ve kredi kartı" },
 ];
@@ -57,7 +57,7 @@ export function ContactPage() {
           ))}
           <a
             className="contact-info__ig"
-            href="https://www.instagram.com/pati_tekpetshop/"
+            href="https://www.instagram.com/kosempetshopp/"
             target="_blank"
             rel="noreferrer"
           >
@@ -65,7 +65,7 @@ export function ContactPage() {
           </a>
           <div className="contact-map" aria-hidden="true">
             <Icon name="location" size={32} />
-            <p>Çamlıca Mah. Doğanşehir Sok. No:17/A · Eskişehir</p>
+            <p>Bursa/İnegöl</p>
           </div>
         </div>
 

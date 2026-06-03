@@ -21,7 +21,7 @@ function emptyDraft(): Product {
   return {
     id: `urun-${Date.now()}`,
     name: "",
-    brand: "Pati Tek",
+    brand: "Köşem Petshop",
     category: "kopek",
     price: 0,
     rating: 4.5,

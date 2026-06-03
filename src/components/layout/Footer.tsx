@@ -14,7 +14,7 @@ export function Footer() {
               <PawMark size={22} />
             </span>
             <span className="logo__text">
-              Pati<span>Tek</span>
+              Köşem<span>Petshop</span>
             </span>
           </Link>
           <p>
@@ -23,7 +23,7 @@ export function Footer() {
           </p>
           <a
             className="footer__social"
-            href="https://www.instagram.com/pati_tekpetshop/"
+            href="https://www.instagram.com/kosempetshopp/"
             target="_blank"
             rel="noreferrer"
             aria-label="Instagram"
@@ -58,11 +58,11 @@ export function Footer() {
           <ul className="footer__contact">
             <li>
               <Icon name="location" size={18} />
-              <span>Çamlıca Mah. Doğanşehir Sok. No:17/A, Eskişehir 26180</span>
+              <span>Bursa/İnegöl</span>
             </li>
             <li>
               <Icon name="phone" size={18} />
-              <a href="tel:+905465826987">0546 582 69 87</a>
+              <a href="tel:+905366281516">0536 628 15 16</a>
             </li>
             <li>
               <Icon name="clock" size={18} />
@@ -77,7 +77,7 @@ export function Footer() {
       </div>
 
       <div className="footer__bottom container">
-        <span>© {new Date().getFullYear()} Pati Tek Petshop · Demo sürüm</span>
+        <span>© {new Date().getFullYear()} Köşem Petshop · Demo sürüm</span>
         <span className="footer__pay">
           <Icon name="cash" size={16} /> Kapıda Ödeme · Nakit & Kredi Kartı
         </span>

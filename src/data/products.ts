@@ -57,7 +57,7 @@ export const seedProducts: Product[] = [
   {
     id: "kp-004",
     name: "Sağlam İp Oyuncak Orta Boy",
-    brand: "Pati Tek",
+    brand: "Köşem Petshop",
     category: "kopek",
     price: 89,
     oldPrice: 119,
@@ -126,7 +126,7 @@ export const seedProducts: Product[] = [
   {
     id: "kd-004",
     name: "Tırmalama Tahtası ve Oyun Topu",
-    brand: "Pati Tek",
+    brand: "Köşem Petshop",
     category: "kedi",
     price: 149,
     rating: 4.3,
@@ -160,7 +160,7 @@ export const seedProducts: Product[] = [
   {
     id: "ku-002",
     name: "Geniş Kuş Kafesi Açılır Tepe Kapaklı",
-    brand: "Pati Tek",
+    brand: "Köşem Petshop",
     category: "kus",
     price: 899,
     oldPrice: 1099,
@@ -194,7 +194,7 @@ export const seedProducts: Product[] = [
   {
     id: "km-002",
     name: "Tavşan Yuvası ve Saman Yatağı",
-    brand: "Pati Tek",
+    brand: "Köşem Petshop",
     category: "kemirgen",
     price: 179,
     rating: 4.2,
@@ -246,7 +246,7 @@ export const seedProducts: Product[] = [
   {
     id: "ak-001",
     name: "Ayarlanabilir Köpek Tasması Reflektörlü",
-    brand: "Pati Tek",
+    brand: "Köşem Petshop",
     category: "aksesuar",
     price: 129,
     rating: 4.6,
@@ -262,7 +262,7 @@ export const seedProducts: Product[] = [
   {
     id: "ak-002",
     name: "Çift Bölmeli Çelik Mama ve Su Kabı",
-    brand: "Pati Tek",
+    brand: "Köşem Petshop",
     category: "aksesuar",
     price: 169,
     oldPrice: 199,
@@ -280,7 +280,7 @@ export const seedProducts: Product[] = [
   {
     id: "ak-003",
     name: "Kedi Köpek Taşıma Çantası Orta Boy",
-    brand: "Pati Tek",
+    brand: "Köşem Petshop",
     category: "aksesuar",
     price: 459,
     rating: 4.4,
